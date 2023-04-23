@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reaper</title>
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Games.css">
-    <link rel="preload" as="image" href="hero-banner.png">
-    <link rel="preload" as="image" href="hero2.png">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reaper</title>
+        <link rel="shortcut icon" href="Src\Home\favicon.svg" type="image/svg+xml">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Src\Game\Games.css">
+        <link rel="preload" as="image" href="Src\Home\hero-banner.png">
+        <link rel="preload" as="image" href="Src\Home\hero2.png">
+    </head>
 
 <body>
     <header class="header active" data-header>
         <div class="container">
-            <a href="index.html" class="logo"> <img src="logo2.svg" width="110" height="53"> </a>
+            <a href="index.html" class="logo"> <img src="Src\Home\logo.svg" width="110" height="53"> </a>
             <nav class="navbar" data-navbar>
                 <ul class="navbar-list">
                     <li class="navbar-item"> <a href="index.html" class="navbar-link" data-nav-link>Home</a> </li>
-                    <li class="navbar-item"> <a href="#tournament" class="navbar-link" data-nav-link>Games</a> </li>
-                    <li class="navbar-item"> <a href="#news" class="navbar-link" data-nav-link>Leaderboard</a> </li>
+                    <li class="navbar-item"> <a href="Games.html" class="navbar-link" data-nav-link>Games</a> </li>
+                    <li class="navbar-item"> <a href="#" class="navbar-link" data-nav-link>Leaderboard</a> </li>
                     <li class="navbar-item"> <a href="#" class="navbar-link" data-nav-link>contact us</a> </li>
                 </ul>
             </nav>
@@ -39,15 +39,15 @@
             <!-- Games Section -->
             <section class="section news" aria-label="our latest news" id="news">
                 <div class="container">
-                    <p class="section-subtitle" data-reveal="bottom">What's On Our Mind</p>
-                    <h2 class="h2 section-title" data-reveal="bottom">News And <span class="span">Headlines</span></h2>
+                    <p class="section-subtitle" data-reveal="bottom"> </p>
+                    <h2 class="h2 section-title" data-reveal="bottom">Our Latest & Exciting <span class="span">Games</span></h2>
                     <p class="section-text" data-reveal="bottom">Our success in creating business solutions is due in large part to our talented and highly committed team.</p>
                     <ul class="news-list">
                         <!--Game 1-->
                         <li data-reveal="bottom">
                             <div class="news-card">
                                 <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                                    <img src="StickHero.webp" width="600" height="400" loading="lazy" class="img-cover">
+                                    <img src="Src\Game\StickHero.webp" width="600" height="400" loading="lazy" class="img-cover">
                                 </figure>
                                 <div class="card-content">
                                     <a href="Games/Stick Hero/index.html" class="card-tag">Play Now</a>
@@ -62,7 +62,7 @@
                         <li data-reveal="bottom">
                             <div class="news-card">
                                 <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                                    <img src="menja.webp" width="600" height="400" loading="lazy" class="img-cover">
+                                    <img src="Src\Game\menja.webp" width="600" height="400" loading="lazy" class="img-cover">
                                 </figure>
                                 <div class="card-content">
                                     <a href="Games/Menja/index.html" class="card-tag">Play Now</a>
@@ -77,7 +77,7 @@
                         <li data-reveal="bottom">
                             <div class="news-card">
                                 <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                                    <img src="colorblast.jpg" width="600" height="400" loading="lazy" class="img-cover">
+                                    <img src="Src\Game\colorblast.jpg" width="600" height="400" loading="lazy" class="img-cover">
                                 </figure>
                                 <div class="card-content">
                                     <a href="Games/Color Blast/index.html" class="card-tag">Play Now</a>
@@ -92,7 +92,7 @@
                         <li data-reveal="bottom">
                             <div class="news-card">
                                 <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                                    <img src="AIChess.jpg" width="600" height="400" loading="lazy" class="img-cover">
+                                    <img src="Src\Game\AIChess.jpg" width="600" height="400" loading="lazy" class="img-cover">
                                 </figure>
                                 <div class="card-content">
                                     <a href="Games/AI Chess/index.html" class="card-tag">Play Now</a>
@@ -107,7 +107,7 @@
                         <li data-reveal="bottom">
                             <div class="news-card">
                                 <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                                    <img src="tictactoe.jpg" width="600" height="400" loading="lazy" class="img-cover">
+                                    <img src="Src\Game\tictactoe.jpg" width="600" height="400" loading="lazy" class="img-cover">
                                 </figure>
                                 <div class="card-content">
                                     <a href="Games/Tic Tac Toe/index.html" class="card-tag">Play Now</a>
@@ -129,7 +129,7 @@
             <div class="container">
                 <div class="footer-brand">
                     <a href="#" class="logo">
-                        <img src="logo.svg" width="150" height="73" loading="lazy">
+                        <img src="Src\Home\logo.svg" width="150" height="73" loading="lazy">
                     </a>
                     <p class="footer-text">Our success in creating business solutions is due in large part to our talented and highly committed team.</p>
                     <ul class="social-list">
@@ -202,7 +202,7 @@
     <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn><ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon></a>
 
     <!-- Scripts -->
-    <script src="script.js"></script>
+    <script src="Src\Home\script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
