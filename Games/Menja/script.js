@@ -1,10 +1,3 @@
-// globalConfig.js
-// ============================================================================
-// ============================================================================
-
-// Provides global variables used by the entire program.
-// Most of this should be configuration.
-
 // Timing multiplier for entire game engine.
 let gameSpeed = 1;
 
@@ -87,12 +80,6 @@ const allShadowVertices = [];
 const allShadowPolys = [];
 
 
-
-
-// state.js
-// ============================================================================
-// ============================================================================
-
 ///////////
 // Enums //
 ///////////
@@ -157,12 +144,6 @@ const setHighScore = score => {
 
 const isNewHighScore = () => state.game.score > _lastHighscore;
 
-
-
-
-// utils.js
-// ============================================================================
-// ============================================================================
 
 
 const invariant = (condition, message) => {
