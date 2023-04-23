@@ -1,2 +1,2 @@
 # E-Gaming
-**Run The Index.html file**
+**Run index.html file**
