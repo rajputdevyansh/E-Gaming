@@ -35,34 +35,34 @@
     </header>
         <div class="signupcontainer">
             <div class="signupform-box">
-                <form>
+                <form action="/sign_up" method="POST">
                     <h2 class="h2 section-title" id="signuptitle" data-reveal="bottom">Welcome <span class="span">Gamers!</span></h2>
                     <div class="input-group">
                         <div class="input-field" id="userIn">
                             <i class="fa-solid fa-user-astronaut"></i>
-                            <input type="text" autocomplete="off" placeholder="Username" id="textfield">
+                            <input type="text" autocomplete="off" placeholder="Username" id="username" name="username" required>
                         </div>
     
                         <div class="input-field" id="nameIn">
                             <i class="fa-solid fa-user"></i>
-                            <input type="text" autocomplete="off" placeholder="Full Name">
+                            <input type="text" autocomplete="off" placeholder="Full Name" id="fullname" name="fullname" required>
                         </div>
     
                         <div class="input-field" id="emailIn">
                             <i class="fa-solid fa-envelope"></i>
-                            <input type="email" autocomplete="off" placeholder="Email">
+                            <input type="email" autocomplete="off" placeholder="Email" id="email" name="email" required>
                         </div>
 
                         <div class="input-field" id="phoneIn">
                             <i class="fa-solid fa-envelope"></i>
-                            <input type="tel" autocomplete="off" placeholder="Phone Number">
+                            <input type="tel" autocomplete="off" placeholder="Phone Number" id="phone" name="phone" required>
                         </div>
     
                         <div class="input-field" id="passIn">
                             <i class="fa-solid fa-lock"></i>
-                            <input type="password" autocomplete="off" placeholder="Password">
+                            <input type="password" autocomplete="off" placeholder="Password" id="password" name="password" required>
                         </div>
-                        <button type="submit" href="login.html" class="btn" data-btn>Create Account Now!</button>
+                        <input type="submit" value="Create Account Now!" id="submit" class="btn"/>
                     </div>
                 </form>
             </div>

@@ -24,7 +24,7 @@
                     <li class="navbar-item"> <a href="Community.html" class="navbar-link" data-nav-link>Community</a> </li>
                 </ul>
             </nav>
-            <a href="signup.html" class="btn" data-btn>Create A Account Now !</a>
+            <a href="signup.html" class="btn" data-btn>Don't have an account? Sign Up</a>
             <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
                 <span class="line line-1"></span>
                 <span class="line line-2"></span>
@@ -34,19 +34,19 @@
     </header>
         <div class="signupcontainer">
             <div class="signupform-box">
-                <form>
+                <form action="/login" method="POST">
                     <h2 class="h2 section-title" id="signuptitle" data-reveal="bottom">Welcome <span class="span">Back!</span></h2>
                     <div class="input-group">
                         <div class="input-field" id="userIn">
                             <i class="fa-solid fa-user-astronaut"></i>
-                            <input type="text" autocomplete="off" placeholder="Username" id="textfield">
+                            <input type="text" autocomplete="off" placeholder="Email" id="textfield" name="username">
                         </div>
                         <div class="input-field" id="passIn">
                             <i class="fa-solid fa-lock"></i>
-                            <input type="password" autocomplete="off" placeholder="Password">
+                            <input type="password" autocomplete="off" placeholder="Password" name="password">
                         </div>
                         <a id="Forgot" href="#">Forgot Password</a>
-                        <button href="Home.html"type="submit" id="signupbtn" class="btn" data-btn>Login Now !</button>
+                        <input type="submit" value="Login Now" id="submit" class="btn"/>
                     </div>
                 </form>
             </div>

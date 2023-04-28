@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaming</title>
-    <link rel="shortcut icon" href="Src\Home\favicon.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Src\Home\style.css">
-    <link rel="preload" as="image" href="Src\Home\hero-banner.png">
-    <link rel="preload" as="image" href="Src\Home\hero2.png">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Games</title>
+        <link rel="shortcut icon" href="Src\Home\favicon.svg" type="image/svg+xml">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Src\Game\Games.css">
+    </head>
+
 <body>
     <header class="header active" data-header>
         <div class="container">
-            <a href="Home.html" class="logo"> <img src="Src\Home\logo.svg" width="110" height="53"> </a>
+            <a href="Homeafter.html" class="logo"> <img src="Src\Home\logo.svg" width="110" height="53"> </a>
             <nav class="navbar" data-navbar>
                 <ul class="navbar-list">
-                    <li class="navbar-item"> <a href="Home.html" class="navbar-link" data-nav-link>Home</a> </li>
-                    <li class="navbar-item"> <a href="Games.html" class="navbar-link" data-nav-link>Games</a> </li>
-                    <li class="navbar-item"> <a href="Community.html" class="navbar-link" data-nav-link>Community</a> </li>
+                    <li class="navbar-item"> <a href="Homeafter.html" class="navbar-link" data-nav-link>Home</a> </li>
+                    <li class="navbar-item"> <a href="Gamesafter.html" class="navbar-link" data-nav-link>Games</a> </li>
+                    <li class="navbar-item"> <a href="Communityafter.html" class="navbar-link" data-nav-link>Community</a> </li>
                 </ul>
             </nav>
-            <a href="login.html" class="btn" data-btn>Login To Play !</a>
+            <a href="#" class="btn" data-btn>My Account</a>
             <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
                 <span class="line line-1"></span>
                 <span class="line line-2"></span>
@@ -34,24 +33,11 @@
     </header>
     <main>
         <article>
-            <!-- Hero Section -->
-            <div class="hero has-before" id="home">
-                <div class="container">
-                    <p class="section-subtitle">Enjoy Our Latest Games</p>
-                    <h1 class="h1 title hero-title">Made For<br> True Gamers!</h1>
-                    <a href="signup.html" class="btn" data-btn>Create An Account Now !</a>
-                    <div class="hero-banner">
-                        <img src="Src\Home\hero-banner.png" width="850" height="414" class="w-100">
-                        <img src="Src\Home\hero2.png" class="hero-banner-bg">
-                    </div>
-                </div>
-            </div>
-            
             <!-- Games Section -->
             <section class="section news" aria-label="our latest news" id="news">
                 <div class="container">
-                    <p class="section-subtitle" data-reveal="bottom">Refresh you mind</p>
-                    <h2 class="h2 section-title" data-reveal="bottom">Checkout our top <span class="span">Games</span></h2>
+                    <p class="section-subtitle" data-reveal="bottom"> </p>
+                    <h2 class="h2 section-title" data-reveal="bottom">Our Latest & Exciting <span class="span">Games</span></h2>
                     <p class="section-text" data-reveal="bottom">We created these games for you to enjoy and relax your mind.</p>
                     <ul class="news-list">
                         <!--Game 1-->
@@ -61,7 +47,7 @@
                                     <img src="Src\Game\StickHero.webp" width="600" height="400" loading="lazy" class="img-cover">
                                 </figure>
                                 <div class="card-content">
-                                    <a class="card-tag">Login In To Play</a>
+                                    <a href="Games/Stick Hero/index.html" class="card-tag">Play Now</a>
                                     <h3 class="h3">
                                         <a class="card-title">Stick Hero</a>
                                     </h3>
@@ -76,7 +62,7 @@
                                     <img src="Src\Game\menja.webp" width="600" height="400" loading="lazy" class="img-cover">
                                 </figure>
                                 <div class="card-content">
-                                    <a class="card-tag">Login In To Play</a>
+                                    <a href="Games/Menja/index.html" class="card-tag">Play Now</a>
                                     <h3 class="h3">
                                         <a class="card-title">Menja</a>
                                     </h3>
@@ -91,11 +77,71 @@
                                     <img src="Src\Game\colorblast.jpg" width="600" height="400" loading="lazy" class="img-cover">
                                 </figure>
                                 <div class="card-content">
-                                    <a class="card-tag">Login In To Play</a>
+                                    <a href="Games/Color Blast/index.html" class="card-tag">Play Now</a>
                                     <h3 class="h3">
                                         <a class="card-title">Color Blast</a>
                                     </h3>
                                     <p class="card-text">Endless fun & chill in this colorful Blasts!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Game 4-->
+                        <li data-reveal="bottom">
+                            <div class="news-card">
+                                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                                    <img src="Src\Game\AIChess.jpg" width="600" height="400" loading="lazy" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <a href="Games/AI Chess/index.html" class="card-tag">Play Now</a>
+                                    <h3 class="h3">
+                                        <a class="card-title">AI Chess</a>
+                                    </h3>
+                                    <p class="card-text">One of the oldest strategy games in the world!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Game 5-->
+                        <li data-reveal="bottom">
+                            <div class="news-card">
+                                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                                    <img src="Src\Game\tictactoe.jpg" width="600" height="400" loading="lazy" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <a href="Games/Tic Tac Toe/index.html" class="card-tag">Play Now</a>
+                                    <h3 class="h3">
+                                        <a class="card-title">Tic Tac Toe</a>
+                                    </h3>
+                                    <p class="card-text">Play the classic Tic-Tac-Toe game!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Game 6-->
+                        <li data-reveal="bottom">
+                            <div class="news-card">
+                                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                                    <img src="Src/Game/snake.jpg" width="600" height="400" loading="lazy" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <a href="Games/Snake/index.html" class="card-tag">Play Now</a>
+                                    <h3 class="h3">
+                                        <a class="card-title">Snake</a>
+                                    </h3>
+                                    <p class="card-text">Enjoy the classic singleplayer experience!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Game 7-->
+                        <li data-reveal="bottom">
+                            <div class="news-card">
+                                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                                    <img src="Src/Game/keyboardhero.png" width="600" height="400" loading="lazy" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <a href="Games/Keyboard Hero/index.html" class="card-tag">Play Now</a>
+                                    <h3 class="h3">
+                                        <a class="card-title">Keyboard Hero</a>
+                                    </h3>
+                                    <p class="card-text">Typing can be Fun too!</p>
                                 </div>
                             </div>
                         </li>
@@ -109,7 +155,7 @@
         <div class="section footer-top">
             <div class="container">
                 <div class="footer-brand">
-                    <a href="Home.html" class="logo">
+                    <a href="Homeafter.html" class="logo">
                         <img src="Src\Home\logo.svg" width="150" height="73" loading="lazy">
                     </a>
                     <p class="footer-text">We created these games for you to enjoy and relax your mind.</p>
@@ -132,10 +178,10 @@
                     <p class="title footer-list-title has-after">Usefull Links</p>
                     <ul>
                         <li>
-                            <a href="Games.html" class="footer-link">Games</a>
+                            <a href="Gamesafter.html" class="footer-link">Games</a>
                         </li>
                         <li>
-                            <a href="Community.html" class="footer-link">Community</a>
+                            <a href="Communityafter.html" class="footer-link">Community</a>
                         </li>
                         <li>
                             <a href="#" class="footer-link">Privacy and Policy</a>
