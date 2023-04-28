@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming</title>
+    <link rel="shortcut icon" href="Src\Home\favicon.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/0d18dbd5d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header active" data-header>
+        <div class="container">
+            <a href="Home.html" class="logo"> <img src="Src\Home\logo.svg" width="110" height="53"> </a>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li class="navbar-item"> <a href="Home.html" class="navbar-link" data-nav-link>Home</a> </li>
+                    <li class="navbar-item"> <a href="Games.html" class="navbar-link" data-nav-link>Games</a> </li>
+                    <li class="navbar-item"> <a href="Community.html" class="navbar-link" data-nav-link>Community</a> </li>
+                </ul>
+            </nav>
+            <a href="login.html" class="btn" data-btn>Already Have An Account</a>
+            <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+        </div>
+    </header>
+        <div class="signupcontainer">
+            <div class="signupform-box">
+                <form>
+                    <h2 class="h2 section-title" id="signuptitle" data-reveal="bottom">Welcome <span class="span">Gamers!</span></h2>
+                    <div class="input-group">
+                        <div class="input-field" id="userIn">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                            <input type="text" autocomplete="off" placeholder="Username" id="textfield">
+                        </div>
+    
+                        <div class="input-field" id="nameIn">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" autocomplete="off" placeholder="Full Name">
+                        </div>
+    
+                        <div class="input-field" id="emailIn">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" autocomplete="off" placeholder="Email">
+                        </div>
+
+                        <div class="input-field" id="phoneIn">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="tel" autocomplete="off" placeholder="Phone Number">
+                        </div>
+    
+                        <div class="input-field" id="passIn">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" autocomplete="off" placeholder="Password">
+                        </div>
+                        <button type="submit" id="signupbtn" class="btn" data-btn>Create Account Now!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    <!-- Scripts -->
+    <script src="Src\Home\script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
